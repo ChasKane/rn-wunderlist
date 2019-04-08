@@ -51,7 +51,7 @@ export default class extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.navbar}>
-          <P style={styles.navbarTitle}>Todos</P>
+          <P style={styles.navbarTitle}>Happy Birthday!!!</P>
         </View>
 
         <View style={{ flex: 1 }}>

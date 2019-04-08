@@ -1,8 +1,9 @@
 {
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 29046,
+  "expoServerNgrokUrl": "https://r2-5ia.youngsage.rn-wunderlist.exp.direct",
+  "packagerNgrokUrl": "https://packager.r2-5ia.youngsage.rn-wunderlist.exp.direct",
+  "ngrokPid": 29070,
+  "devToolsPort": 19002
 }

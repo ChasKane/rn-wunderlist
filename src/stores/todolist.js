@@ -21,7 +21,7 @@ class List {
 	@observable loaded = false;
 	@observable scrollable = true;
 	@observable openId = null;
-	
+
 	@observable todos = [];
 	@observable refreshing = false;
 	@observable completedVisible = false;
@@ -36,9 +36,7 @@ class List {
 	@observable selectedTodo = null;
 
 	constructor() {
-		this.addTodo('Write some code');
-		setTimeout(() => this.addTodo('Publish to Exponent'), 10);
-		setTimeout(() => this.addTodo('Write a Medium Story', true), 20);
+	  this.addTodo('Hey Audrey, tap here ♥');
 	}
 
 	@action addTodo(title, starred=false) {

@@ -94,16 +94,15 @@ export default class extends Component {
           </TouchableOpacity>
 
           <View style={{ flex: 1 }}>
-            {false && (
+            {true && (
               <TextInput
                 ref={"input"}
                 style={[
                   styles.title,
                   { height: Math.max(54, this.state.height) }
                 ]}
-                value={todo.title}
+                value="Hey dude, just wanted to take a minute and say what a dope fucking friend you are, my philosorapter ;P. You've been there for me so much, and I can only hope I do the same for you. I'm gonna keep giving you a hard time about your philosophy because I care about your map, and I'm excited to see where your passion takes you. As many times as we've 'broken up', I still feel like you understand me like no one else does. That's meant more to me than about anything else this past year <3. Looking forward to making you a way doper app a year from now, and maybe having you join if you're still into code at all XD. Hope you enjoy dinner ^^. Keep kickin' ass :)))"
                 multiline={true}
-                onChangeText={title => (store.selectedTodo.title = title)}
                 returnKeyType={"done"}
                 onContentSizeChange={event => {
                   this.setState({
@@ -114,7 +113,6 @@ export default class extends Component {
                 onSubmitEditing={this.validateTitle.bind(this)}
               />
             )}
-            <P style={styles.title}>{todo.title}</P>
           </View>
 
           <StarButton todo={todo} />
